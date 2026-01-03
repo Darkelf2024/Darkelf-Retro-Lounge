@@ -1,6 +1,6 @@
 # 📌 About the Author
 
-## Darkelf (Kevin Moore)
+## Darkelf (Dr. Kevin Moore)
 
 **Darkelf** is an active researcher and long-time tester focused on **methodology-driven evaluation**, **long-session validation**, and **behavior-based analysis** of complex systems. This background directly informs the structure, rigor, and philosophy behind **Darkelf Retro Lounge**.
 
