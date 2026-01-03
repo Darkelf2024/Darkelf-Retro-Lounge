@@ -59,6 +59,9 @@ Each document builds on the previous one, forming a complete understanding of Ae
 
 ### 1️⃣ BIOS & Region Behavior
 
+**Documentation:**  
+👉 [AetherSX2 BIOS Region](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20BIOS%20Region%20Documentation.md)
+
 Explains:
 - BIOS region differences  
 - Boot behavior and timing  
@@ -97,6 +100,9 @@ Explains when these settings help performance — and when they silently break l
 
 ### 4️⃣ Software vs Hardware Renderer
 
+**Documentation:**  
+👉 [AetherSX2 Software vs Hardware Renderer](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Software%20vs%20Hardware%20Renderer.md)
+
 Explains:
 - When software rendering is required  
 - Why hardware rendering can break effects  
@@ -106,6 +112,9 @@ Explains:
 
 ### 5️⃣ Thermals & Sustained Performance
 
+**Documentation:**  
+👉 [AetherSX2 Thermals Sustained Performance](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Thermals%20Sustained%20Performance.md)
+
 Focuses on real Android behavior:
 - Thermal throttling  
 - Sustained clocks vs burst performance  
@@ -114,6 +123,9 @@ Focuses on real Android behavior:
 ---
 
 ### 6️⃣ Testing Methodology & Validation
+
+**Documentation:**  
+👉 [AetherSX2 Testing Methodology](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Testing%20Methodology%20Validation.md)
 
 Defines how Darkelf Retro Lounge evaluates games:
 - Long play sessions  
@@ -128,7 +140,7 @@ This methodology underpins all compatibility claims.
 ### 7️⃣ Game Engine Stress Patterns
 
 **Documentation:**  
-👉 [AetherSX2 Game Engine](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Game%20Engine%20Categories.md)
+👉 [AetherSX2 Game Engine Categories](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Game%20Engine%20Categories.md)
 
 Classifies PS2 engines based on:
 - CPU load  
@@ -142,6 +154,9 @@ Explains why different games require different configuration strategies.
 
 ### 8️⃣ Known Broken Combinations & Emulator Myths
 
+**Documentation:**  
+👉 [AetherSX2 Known Broken Combinations](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Known%20Broken%20Combinations%20Myths.md)
+
 Documents unsafe myths such as:
 - “Universal best settings”  
 - Aggressive cycle skipping  
@@ -152,7 +167,7 @@ Documents unsafe myths such as:
 ### 9️⃣ Android SoC Behavior
 
 **Documentation:**  
-👉 [AetherSX2 SoC Behavior](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Android%20SoC%20Behavior.md)
+👉 [AetherSX2 Android SoC Behavior](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Android%20SoC%20Behavior.md)
 
 Explains how Android SoCs behave under AetherSX2, focusing on:
 - Sustained performance  
