@@ -67,7 +67,7 @@ Explains:
 ### 2️⃣ CPU vs GPU Responsibilities
 
 **Documentation:**  
-👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20CPU%20VS%20GPU.md
+👉 [AetherSX2 CPU vs GPU](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20CPU%20VS%20GPU.md)
 
 Covers:
 - Emotion Engine (EE) behavior  
@@ -81,7 +81,7 @@ Clarifies why GPU power alone does **not** guarantee performance or accuracy.
 ### 3️⃣ EE Cycle Rate, Cycle Skip, MTVU & Instant VU1
 
 **Documentation:**  
-👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20EE%20Cycle%20Explained.md
+👉 [AetherSX2 EE Cycle Explained](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20EE%20Cycle%20Explained.md)
 
 A deep technical breakdown of:
 - EE Cycle Rate  
@@ -126,7 +126,7 @@ This methodology underpins all compatibility claims.
 ### 7️⃣ Game Engine Stress Patterns
 
 **Documentation:**  
-👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Game%20Engine%20Categories.md
+👉 [AetherSX2 Game Engine](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Game%20Engine%20Categories.md)
 
 Classifies PS2 engines based on:
 - CPU load  
@@ -150,7 +150,7 @@ Documents unsafe myths such as:
 ### 9️⃣ Android SoC Behavior
 
 **Documentation:**  
-👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Android%20SoC%20Behavior.md
+👉 [AetherSX2 SoC Behavior](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Android%20SoC%20Behavior.md)
 
 Explains how Android SoCs behave under AetherSX2, focusing on:
 - Sustained performance  
