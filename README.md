@@ -9,6 +9,26 @@ This project exists to document **how AetherSX2 actually behaves** on real hardw
 
 ---
 
+## 📑 Table of Contents
+
+- [🎯 Project Goals](#-project-goals)
+- [📚 AetherSX2 Documentation Series](#-aethersx2-documentation-series)
+  - [1️⃣ BIOS & Region Behavior](#1️⃣-bios--region-behavior)
+  - [2️⃣ CPU vs GPU Responsibilities](#2️⃣-cpu-vs-gpu-responsibilities)
+  - [3️⃣ EE Cycle Rate, Cycle Skip, MTVU & Instant VU1](#3️⃣-ee-cycle-rate-cycle-skip-mtvu--instant-vu1)
+  - [4️⃣ Software vs Hardware Renderer](#4️⃣-software-vs-hardware-renderer)
+  - [5️⃣ Thermals & Sustained Performance](#5️⃣-thermals--sustained-performance)
+  - [6️⃣ Testing Methodology & Validation](#6️⃣-testing-methodology--validation)
+  - [7️⃣ Game Engine Stress Patterns](#7️⃣-game-engine-stress-patterns)
+  - [8️⃣ Known Broken Combinations & Emulator Myths](#8️⃣-known-broken-combinations--emulator-myths)
+  - [9️⃣ Android SoC Behavior](#9️⃣-android-soc-behavior)
+- [📱 PS2 Compatibility & Playability Lists](#-ps2-compatibility--playability-lists)
+- [🛠️ Companion Tool — Darkelf ROM Detector](#️-companion-tool--darkelf-rom-detector)
+- [🧠 Darkelf Philosophy](#-darkelf-philosophy)
+- [📌 About Darkelf Retro Lounge](#-about-darkelf-retro-lounge)
+
+---
+
 ## 🎯 Project Goals
 
 Darkelf Retro Lounge prioritizes:
@@ -17,21 +37,26 @@ Darkelf Retro Lounge prioritizes:
 - ✅ Long-session stability  
 - ✅ Safe, explainable configuration choices  
 - ✅ Transparent testing methodology  
-- ❌ No unsafe speed-hack myths  
-- ❌ No “one-size-fits-all” settings  
+
+And explicitly rejects:
+
+- ❌ Unsafe speed-hack myths  
+- ❌ FPS-only compatibility claims  
+- ❌ “One-size-fits-all” settings  
 
 ---
 
 ## 📚 AetherSX2 Documentation Series  
 ### (Darkelf Retro Lounge)
 
-The **AetherSX2 Documentation Series** is a structured, multi-part technical reference that explains *why* emulator settings exist, *when* they should be used, and *how* they affect correctness.
+The **AetherSX2 Documentation Series** is a structured, multi-part technical reference explaining *why* emulator settings exist, *when* they should be used, and *how* they affect correctness.
 
 Each document builds on the previous one, forming a complete understanding of AetherSX2 behavior.
 
 ---
 
-### 1️⃣ BIOS & Region Behavior  
+### 1️⃣ BIOS & Region Behavior
+
 Explains:
 - BIOS region differences  
 - Boot behavior and timing  
@@ -39,7 +64,11 @@ Explains:
 
 ---
 
-### 2️⃣ CPU vs GPU Responsibilities  
+### 2️⃣ CPU vs GPU Responsibilities
+
+**Documentation:**  
+👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20CPU%20VS%20GPU.md
+
 Covers:
 - Emotion Engine (EE) behavior  
 - Vector Unit (VU) workload  
@@ -49,7 +78,11 @@ Clarifies why GPU power alone does **not** guarantee performance or accuracy.
 
 ---
 
-### 3️⃣ EE Cycle Rate, Cycle Skip, MTVU & Instant VU1  
+### 3️⃣ EE Cycle Rate, Cycle Skip, MTVU & Instant VU1
+
+**Documentation:**  
+👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20EE%20Cycle%20Explained.md
+
 A deep technical breakdown of:
 - EE Cycle Rate  
 - EE Cycle Skip  
@@ -60,15 +93,17 @@ Explains when these settings help performance — and when they silently break l
 
 ---
 
-### 4️⃣ Software vs Hardware Renderer  
-Details:
+### 4️⃣ Software vs Hardware Renderer
+
+Explains:
 - When software rendering is required  
 - Why hardware rendering can break effects  
 - How to safely choose a renderer per game  
 
 ---
 
-### 5️⃣ Thermals & Sustained Performance  
+### 5️⃣ Thermals & Sustained Performance
+
 Focuses on real Android behavior:
 - Thermal throttling  
 - Sustained clocks vs burst performance  
@@ -76,7 +111,8 @@ Focuses on real Android behavior:
 
 ---
 
-### 6️⃣ Testing Methodology & Validation  
+### 6️⃣ Testing Methodology & Validation
+
 Defines how Darkelf Retro Lounge evaluates games:
 - Long play sessions  
 - Multiple gameplay scenarios  
@@ -87,7 +123,11 @@ This methodology underpins all compatibility claims.
 
 ---
 
-### 7️⃣ Game Engine Stress Patterns  
+### 7️⃣ Game Engine Stress Patterns
+
+**Documentation:**  
+👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Game%20Engine%20Categories.md
+
 Classifies PS2 engines based on:
 - CPU load  
 - VU stress  
@@ -98,7 +138,8 @@ Explains why different games require different configuration strategies.
 
 ---
 
-### 8️⃣ Known Broken Combinations & Emulator Myths  
+### 8️⃣ Known Broken Combinations & Emulator Myths
+
 Documents unsafe myths such as:
 - “Universal best settings”  
 - Aggressive cycle skipping  
@@ -106,7 +147,11 @@ Documents unsafe myths such as:
 
 ---
 
-### 9️⃣ Android SoC Behavior  
+### 9️⃣ Android SoC Behavior
+
+**Documentation:**  
+👉 https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Android%20SoC%20Behavior.md
+
 Explains how Android SoCs behave under AetherSX2, focusing on:
 - Sustained performance  
 - CPU architecture limits  
@@ -120,8 +165,8 @@ Rather than synthetic benchmarks.
 
 Darkelf Retro Lounge maintains **separate PS2 compatibility and playability lists** for AetherSX2.
 
-📄 **Important:**  
-- Individual game lists are maintained in a **separate file**  
+📄 **Important:**
+- Individual game lists are maintained in a **separate file**
 - This README intentionally does **not** list individual titles  
 
 Compatibility is determined by:
@@ -138,7 +183,7 @@ Games are evaluated on **correctness and stability**, not raw FPS.
 **Darkelf ROM Detector** is an accuracy-first analysis tool designed to complement this documentation.
 
 It:
-- Analyzes ROM filenames and load patterns  
+- Analyzes ROM filenames and engine load patterns  
 - Suggests safe EE Cycle Rate and Cycle Skip values  
 - Accounts for device class and sustained performance  
 - Avoids dangerous configuration recommendations  
@@ -172,7 +217,4 @@ Darkelf Retro Lounge is a long-term documentation and testing effort built for:
 
 If you care about **how emulation actually works**, you’re in the right place.
 
----
-
-**FPS ≠ accuracy.  
-Behavior defines correctness.**
+> **FPS ≠ accuracy. Behavior defines correctness.**
