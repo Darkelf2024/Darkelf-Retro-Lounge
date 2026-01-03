@@ -176,7 +176,7 @@ Explains why different games require different configuration strategies.
 ### 8️⃣ Known Broken Combinations & Emulator Myths
 
 **Documentation:**  
-👉 [AetherSX2 Known Broken Combinations](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Known%20Broken%20Combinations%20Myths.md)
+👉 [AetherSX2 Known Broken Combinations](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Known%20Broken%20Combinations.md)
 
 Documents unsafe myths such as:
 - “Universal best settings”  
