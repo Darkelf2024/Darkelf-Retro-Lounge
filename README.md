@@ -1,32 +1,31 @@
 # 🎮 Darkelf Retro Lounge  
 ## AetherSX2 Accuracy-First Documentation & Compatibility Project
 
-**Darkelf Retro Lounge** is an accuracy-first PlayStation 2 emulation research and documentation project created by **Dr. Kevin Moore**, dedicated to **AetherSX2 on Android**.
+**Darkelf Retro Lounge** is an accuracy-first PlayStation 2 emulation research and documentation project dedicated to **AetherSX2 on Android**.
 
-This project documents **how AetherSX2 actually behaves on real hardware** — not myths, unsafe “FPS boost” settings, or short benchmark runs. All findings are grounded in sustained testing, emulator internals, and behavior-based validation, with a focus on correctness, long-session stability, and explainable configuration choices.
+This project documents **how AetherSX2 behaves on real hardware** through sustained testing and behavior-based validation — not short benchmarks, unsafe “FPS boost” settings, or unverified myths. Findings emphasize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
 
-Dr. Moore brings decades of hands-on testing experience, including work as a **hired beta tester for the MMORPG *Neocron* (2001–2002)** and as a **beta tester for *MuOS* custom firmware for retro gaming devices**. This background informs Darkelf Retro Lounge’s strict testing methodology and rejection of unsafe emulator myths.
+The project is informed by decades of hands-on testing experience, including professional beta testing and firmware evaluation for retro gaming platforms. This background supports a strict testing methodology and a rejection of unsafe or misleading emulator practices.
 
 > **FPS ≠ accuracy. Behavior defines correctness.**
 
-**Retro emulation testing and compatibility research**
+---
+
+## 📌 Project Scope
 
 This repository will hold:
-- Testing data for ~200 PS2 games on AetherSX2
-- Compatibility comparisons vs NetherSX and other builds
-- Documentation and explanations of testing metrics
+- Testing data for ~200 PS2 games on AetherSX2  
+- Compatibility comparisons with NetherSX and related builds  
+- Documentation explaining emulator behavior and testing metrics  
 
 **Current Status:**  
 🔧 Testing in progress on AetherSX2  
 🧠 Results and documentation pending  
-📌 No executable code yet
-
-**Purpose:**  
-Provide structured, transparent emulation research and compatibility insights.
+📌 No executable code yet  
 
 **Notes:**  
-- No copyrighted game files are shared here  
-- All releases will be published publicly
+- No copyrighted game files are shared  
+- All releases are published publicly  
 
 Contributing, discussions, and updates are tracked in the Discord server.
 
@@ -36,15 +35,6 @@ Contributing, discussions, and updates are tracked in the Discord server.
 
 - [🎯 Project Goals](#-project-goals)
 - [📚 AetherSX2 Documentation Series](#-aethersx2-documentation-series)
-  - [1️⃣ BIOS & Region Behavior](#1️⃣-bios--region-behavior)
-  - [2️⃣ CPU vs GPU Responsibilities](#2️⃣-cpu-vs-gpu-responsibilities)
-  - [3️⃣ EE Cycle Rate, Cycle Skip, MTVU & Instant VU1](#3️⃣-ee-cycle-rate-cycle-skip-mtvu--instant-vu1)
-  - [4️⃣ Software vs Hardware Renderer](#4️⃣-software-vs-hardware-renderer)
-  - [5️⃣ Thermals & Sustained Performance](#5️⃣-thermals--sustained-performance)
-  - [6️⃣ Testing Methodology & Validation](#6️⃣-testing-methodology--validation)
-  - [7️⃣ Game Engine Stress Patterns](#7️⃣-game-engine-stress-patterns)
-  - [8️⃣ Known Broken Combinations & Emulator Myths](#8️⃣-known-broken-combinations--emulator-myths)
-  - [9️⃣ Android SoC Behavior](#9️⃣-android-soc-behavior)
 - [📱 PS2 Compatibility & Playability Lists](#-ps2-compatibility--playability-lists)
 - [🛠️ Companion Tool — Darkelf ROM Detector](#️-companion-tool--darkelf-rom-detector)
 - [🧠 Darkelf Philosophy](#-darkelf-philosophy)
@@ -63,195 +53,121 @@ Darkelf Retro Lounge prioritizes:
 
 And explicitly rejects:
 
-- ❌ Unsafe speed-hack myths  
 - ❌ FPS-only compatibility claims  
-- ❌ “One-size-fits-all” settings  
+- ❌ Unsafe speed-hack myths  
+- ❌ One-size-fits-all settings  
 
 ---
 
-## 📚 AetherSX2 Documentation Series  
-### (Darkelf Retro Lounge)
+## 📚 AetherSX2 Documentation Series
 
-The **AetherSX2 Documentation Series** is a structured, multi-part technical reference explaining *why* emulator settings exist, *when* they should be used, and *how* they affect correctness.
+The **AetherSX2 Documentation Series** is a structured technical reference explaining *why* emulator settings exist, *when* they should be used, and *how* they affect correctness.
 
-Each document builds on the previous one, forming a complete understanding of AetherSX2 behavior.
+Each document builds on the previous one to form a complete understanding of AetherSX2 behavior.
 
----
-
-### 1️⃣ BIOS & Region Behavior
-
-**Documentation:**  
+### 1️⃣ BIOS & Region Behavior  
 👉 [AetherSX2 BIOS Region](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/BIOS%20Region.md)
 
-Explains:
-- BIOS region differences  
-- Boot behavior and timing  
-- When region choice impacts compatibility  
+Covers BIOS region differences, boot behavior, and compatibility impact.
 
 ---
 
-### 2️⃣ CPU vs GPU Responsibilities
-
-**Documentation:**  
+### 2️⃣ CPU vs GPU Responsibilities  
 👉 [AetherSX2 CPU vs GPU](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20CPU%20VS%20GPU.md)
 
-Covers:
-- Emotion Engine (EE) behavior  
-- Vector Unit (VU) workload  
-- Graphics Synthesizer (GS) responsibilities  
-
-Clarifies why GPU power alone does **not** guarantee performance or accuracy.
+Explains EE, VU, and GS responsibilities and why GPU power alone does not guarantee accuracy.
 
 ---
 
-### 3️⃣ EE Cycle Rate, Cycle Skip, MTVU & Instant VU1
-
-**Documentation:**  
+### 3️⃣ EE Cycle Rate, Cycle Skip, MTVU & Instant VU1  
 👉 [AetherSX2 EE Cycle Explained](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20EE%20Cycle%20Explained.md)
 
-A deep technical breakdown of:
-- EE Cycle Rate  
-- EE Cycle Skip  
-- MTVU threading  
-- Instant VU1  
-
-Explains when these settings help performance — and when they silently break logic, physics, or timing.
+Details when performance settings help — and when they silently break timing, logic, or physics.
 
 ---
 
-### 4️⃣ Software vs Hardware Renderer
-
-**Documentation:**  
+### 4️⃣ Software vs Hardware Renderer  
 👉 [AetherSX2 Software vs Hardware Renderer](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Software%20vs%20Hardware%20Render.md)
 
-Explains:
-- When software rendering is required  
-- Why hardware rendering can break effects  
-- How to safely choose a renderer per game  
+Explains renderer selection and common accuracy pitfalls.
 
 ---
 
-### 5️⃣ Thermals & Sustained Performance
+### 5️⃣ Thermals & Sustained Performance  
+👉 [AetherSX2 Thermals and Performance](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Thermals%20and%20Performance.md)
 
-**Documentation:**  
-👉 [AetherSX2 Thermals Sustained Performance](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Thermals%20and%20Performance.md)
-
-Focuses on real Android behavior:
-- Thermal throttling  
-- Sustained clocks vs burst performance  
-- Why short tests are misleading  
+Focuses on real-world Android behavior, sustained clocks, and thermal throttling.
 
 ---
 
-### 6️⃣ Testing Methodology & Validation
-
-**Documentation:**  
+### 6️⃣ Testing Methodology & Validation  
 👉 [AetherSX2 Testing Methodology](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Testing%20Methodology.md)
 
-Defines how Darkelf Retro Lounge evaluates games:
-- Long play sessions  
-- Multiple gameplay scenarios  
-- Stability over time  
-- Behavior consistency  
-
-This methodology underpins all compatibility claims.
+Defines long-session testing, scenario coverage, and validation standards.
 
 ---
 
-### 7️⃣ Game Engine Stress Patterns
-
-**Documentation:**  
+### 7️⃣ Game Engine Stress Patterns  
 👉 [AetherSX2 Game Engine Categories](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Game%20Engine%20Categories.md)
 
-Classifies PS2 engines based on:
-- CPU load  
-- VU stress  
-- GS behavior  
-- Streaming demands  
-
-Explains why different games require different configuration strategies.
+Classifies PS2 engines by CPU, VU, GS, and streaming stress patterns.
 
 ---
 
-### 8️⃣ Known Broken Combinations & Emulator Myths
-
-**Documentation:**  
+### 8️⃣ Known Broken Combinations & Emulator Myths  
 👉 [AetherSX2 Known Broken Combinations](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Known%20Broken%20Combinations.md)
 
-Documents unsafe myths such as:
-- “Universal best settings”  
-- Aggressive cycle skipping  
-- Stacked speed hacks that break gameplay  
+Documents unsafe configuration myths and broken setting combinations.
 
 ---
 
-### 9️⃣ Android SoC Behavior
-
-**Documentation:**  
+### 9️⃣ Android SoC Behavior  
 👉 [AetherSX2 Android SoC Behavior](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Android%20SoC%20Behavior.md)
 
-Explains how Android SoCs behave under AetherSX2, focusing on:
-- Sustained performance  
-- CPU architecture limits  
-- GPU driver behavior  
-
-Rather than synthetic benchmarks.
+Explains sustained performance limits and SoC-specific behavior beyond synthetic benchmarks.
 
 ---
 
 ## 📱 PS2 Compatibility & Playability Lists
 
-Darkelf Retro Lounge maintains **separate PS2 compatibility and playability lists** for AetherSX2.
-
-📄 **Important:**
-- Individual game lists are maintained in a **separate file**
-- This README intentionally does **not** list individual titles  
-
-Compatibility is determined by:
+Compatibility and playability lists are maintained separately and are based on:
 - Real hardware testing  
 - Long-session validation  
-- Accuracy-first configuration choices  
+- Accuracy-first configuration  
 
-Games are evaluated on **correctness and stability**, not raw FPS.
+Individual game titles are intentionally excluded from this README.
 
 ---
 
 ## 🛠️ Companion Tool — Darkelf ROM Detector
 
-**Darkelf ROM Detector** is an accuracy-first analysis tool designed to complement this documentation.
-
-It:
-- Analyzes ROM filenames and engine load patterns  
+**Darkelf ROM Detector** is a companion analysis tool that:
+- Analyzes ROM metadata and engine patterns  
 - Suggests safe EE Cycle Rate and Cycle Skip values  
 - Accounts for device class and sustained performance  
-- Avoids dangerous configuration recommendations  
 
-The tool follows the same philosophy as this project.
+The tool complements — but does not replace — per-game validation.
 
 ---
 
 ## 🧠 Darkelf Philosophy
 
-Darkelf Retro Lounge rejects:
-- Copy-paste “best settings”  
-- FPS-only compatibility claims  
-- Unsafe emulator myths  
-- Short benchmark testing  
-
-Instead, it promotes:
+Darkelf Retro Lounge promotes:
 - Emulator correctness  
 - Stability over time  
 - Per-game understanding  
-- Clear, explainable documentation  
+- Explainable documentation  
+
+And rejects copy-paste settings, FPS-only claims, and short benchmark testing.
 
 ---
 
 ## 📌 About Darkelf Retro Lounge
 
-Darkelf Retro Lounge is a long-term documentation and testing effort built for:
+Darkelf Retro Lounge is a long-term documentation and testing effort for:
 - Emulator users who value correctness  
 - Developers and testers  
-- Retro gaming enthusiasts who want stable, accurate emulation  
+- Retro gaming enthusiasts seeking stable, accurate emulation  
 
 If you care about **how emulation actually works**, you’re in the right place.
 
