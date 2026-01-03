@@ -146,7 +146,7 @@ Focuses on real Android behavior:
 ### 6️⃣ Testing Methodology & Validation
 
 **Documentation:**  
-👉 [AetherSX2 Testing Methodology](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Testing%20Methodology%20Validation.md)
+👉 [AetherSX2 Testing Methodology](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Testing%20Methodology.md)
 
 Defines how Darkelf Retro Lounge evaluates games:
 - Long play sessions  
