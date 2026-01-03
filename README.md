@@ -62,8 +62,6 @@ Explains:
 - Boot behavior and timing  
 - When region choice impacts compatibility  
 
-**Documentation:**
-👉 [BIOS Region Behavior](
 ---
 
 ### 2️⃣ CPU vs GPU Responsibilities
