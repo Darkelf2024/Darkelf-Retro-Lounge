@@ -81,7 +81,7 @@ Each document builds on the previous one, forming a complete understanding of Ae
 ### 1️⃣ BIOS & Region Behavior
 
 **Documentation:**  
-👉 [AetherSX2 BIOS Region](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20BIOS%20Region%20Documentation.md)
+👉 [AetherSX2 BIOS Region](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/BIOS%20Region.md)
 
 Explains:
 - BIOS region differences  
