@@ -122,7 +122,7 @@ Explains when these settings help performance — and when they silently break l
 ### 4️⃣ Software vs Hardware Renderer
 
 **Documentation:**  
-👉 [AetherSX2 Software vs Hardware Renderer](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Software%20vs%20Hardware%20Renderer.md)
+👉 [AetherSX2 Software vs Hardware Renderer](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Software%20vs%20Hardware%20Render.md)
 
 Explains:
 - When software rendering is required  
