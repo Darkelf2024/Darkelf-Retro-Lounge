@@ -9,6 +9,27 @@ Dr. Moore brings decades of hands-on testing experience, including work as a **h
 
 > **FPS ≠ accuracy. Behavior defines correctness.**
 
+**Retro emulation testing and compatibility research**
+
+This repository will hold:
+- Testing data for ~200 PS2 games on AetherSX2
+- Compatibility comparisons vs NetherSX and other builds
+- Documentation and explanations of testing metrics
+
+**Current Status:**  
+🔧 Testing in progress on AetherSX2  
+🧠 Results and documentation pending  
+📌 No executable code yet
+
+**Purpose:**  
+Provide structured, transparent emulation research and compatibility insights.
+
+**Notes:**  
+- No copyrighted game files are shared here  
+- All releases will be published publicly
+
+Contributing, discussions, and updates are tracked in the Discord server.
+
 ---
 
 ## 📑 Table of Contents
