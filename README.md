@@ -134,7 +134,7 @@ Explains:
 ### 5️⃣ Thermals & Sustained Performance
 
 **Documentation:**  
-👉 [AetherSX2 Thermals Sustained Performance](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Thermals%20Sustained%20Performance.md)
+👉 [AetherSX2 Thermals Sustained Performance](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/AetherSX2%20Thermals%20and%20Performance.md)
 
 Focuses on real Android behavior:
 - Thermal throttling  
