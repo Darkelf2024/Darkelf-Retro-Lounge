@@ -1,9 +1,11 @@
 # 🎮 Darkelf Retro Lounge  
 ## AetherSX2 Accuracy-First Documentation & Compatibility Project
 
-**Darkelf Retro Lounge** is an accuracy-focused PlayStation 2 emulation research and documentation project dedicated to **AetherSX2 on Android**.
+**Darkelf Retro Lounge** is an accuracy-first PlayStation 2 emulation research and documentation project created by **Dr. Kevin Moore**, dedicated to **AetherSX2 on Android**.
 
-This project exists to document **how AetherSX2 actually behaves** on real hardware — not myths, unsafe “FPS boost” settings, or short benchmark runs. Every conclusion is grounded in sustained testing, emulator internals, and behavior validation.
+This project documents **how AetherSX2 actually behaves on real hardware** — not myths, unsafe “FPS boost” settings, or short benchmark runs. All findings are grounded in sustained testing, emulator internals, and behavior-based validation, with a focus on correctness, long-session stability, and explainable configuration choices.
+
+Dr. Moore brings decades of hands-on testing experience, including work as a **hired beta tester for the MMORPG *Neocron* (2001–2002)** and as a **beta tester for *MuOS* custom firmware for retro gaming devices**. This background informs Darkelf Retro Lounge’s strict testing methodology and rejection of unsafe emulator myths.
 
 > **FPS ≠ accuracy. Behavior defines correctness.**
 
