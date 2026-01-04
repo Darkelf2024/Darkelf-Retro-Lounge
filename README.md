@@ -39,6 +39,9 @@ Contributing, discussions, and updates are tracked in the Discord server.
 - [🛠️ Companion Tool — Darkelf ROM Detector](#️-companion-tool--darkelf-rom-detector)
 - [🧠 Darkelf Philosophy](#-darkelf-philosophy)
 - [📌 About Darkelf Retro Lounge](#-about-darkelf-retro-lounge)
+- [👤 About the Author](About.md)
+- [🧩 Version Comparison](Version%20Comparison.md)
+
 
 ---
 
