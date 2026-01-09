@@ -14,7 +14,7 @@ The project is informed by decades of hands-on testing experience, including pro
 ## 📌 Project Scope
 
 This repository will hold:
-- Testing data for ~200 PS2 games on AetherSX2  
+- Testing data for 200+ PS2 games on AetherSX2\NetherSX2  [PS2 GAME LISTS HERE](https://github.com/Darkelf2024/PS2-Playable-Lists-for-AetherSX2-NetherSX2/tree/main)
 - Compatibility comparisons with NetherSX and related builds  
 - Documentation explaining emulator behavior and testing metrics  
 
