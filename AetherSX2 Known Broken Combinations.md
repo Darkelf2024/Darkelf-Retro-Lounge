@@ -27,7 +27,7 @@ While some combinations may temporarily raise FPS, they often **silently break g
 | **MTVU + Aggressive EE Undercycle** | Causes thread desynchronization in timing-sensitive titles |
 
 **Key takeaway:**  
-> If a setting combination appears to “fix” performance instantly, it often does so by **breaking correctness**.
+> Instant gains without trade-off analysis usually indicate correctness loss — unless validated through consistency tests.
 
 ---
 
