@@ -1,4 +1,6 @@
-Darkelf Retro Lounge is an accuracy-first PlayStation 2 emulation research and documentation project focused on AetherSX2 on Android.
+## Darkelf Retro Lounge 
+
+Is an accuracy-first PlayStation 2 emulation research and documentation project focused on AetherSX2 on Android.
 
 The project documents how AetherSX2 behaves on real hardware through sustained play testing and behavior-based validation — not short benchmarks, unsafe “FPS boost” settings, or unverified claims. Findings emphasize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
 
