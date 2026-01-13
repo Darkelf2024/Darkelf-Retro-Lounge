@@ -5,6 +5,8 @@
 
 This project documents **how AetherSX2 behaves on real hardware** through sustained testing and behavior-based validation — not short benchmarks, unsafe “FPS boost” settings, or unverified myths. Findings emphasize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
 
+Accuracy in this project refers to correct emulator behavior (timing, logic, audio, and input) on real hardware, not guaranteed full-speed, cycle-accurate PS2 performance on constrained devices.
+
 The project is informed by decades of hands-on testing experience, including professional beta testing and firmware evaluation for retro gaming platforms. This background supports a strict testing methodology and a rejection of unsafe or misleading emulator practices.
 
 > **FPS ≠ accuracy. Behavior defines correctness.**
