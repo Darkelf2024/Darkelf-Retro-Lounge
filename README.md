@@ -1,15 +1,12 @@
-# 🎮 Darkelf Retro Lounge  
-## AetherSX2 Accuracy-First Documentation & Compatibility Project
+Darkelf Retro Lounge is an accuracy-first PlayStation 2 emulation research and documentation project focused on AetherSX2 on Android.
 
-**Darkelf Retro Lounge** is an accuracy-first PlayStation 2 emulation research and documentation project dedicated to **AetherSX2 on Android**.
+The project documents how AetherSX2 behaves on real hardware through sustained play testing and behavior-based validation — not short benchmarks, unsafe “FPS boost” settings, or unverified claims. Findings emphasize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
 
-This project documents **how AetherSX2 behaves on real hardware** through sustained testing and behavior-based validation — not short benchmarks, unsafe “FPS boost” settings, or unverified myths. Findings emphasize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
+Accuracy in this project refers to correct emulator behavior — timing, game logic, audio sync, and input response — as observed on real devices. It does not imply guaranteed full-speed, cycle-accurate PS2 performance on constrained hardware.
 
-Accuracy in this project refers to correct emulator behavior (timing, logic, audio, and input) on real hardware, not guaranteed full-speed, cycle-accurate PS2 performance on constrained devices.
+The project is informed by decades of hands-on testing experience, including professional beta testing and firmware evaluation for retro gaming platforms. This background supports a strict testing methodology and a deliberate rejection of unsafe or misleading emulator practices.
 
-The project is informed by decades of hands-on testing experience, including professional beta testing and firmware evaluation for retro gaming platforms. This background supports a strict testing methodology and a rejection of unsafe or misleading emulator practices.
-
-> **FPS ≠ accuracy. Behavior defines correctness.**
+FPS ≠ accuracy. Behavior defines correctness.
 
 ---
 
