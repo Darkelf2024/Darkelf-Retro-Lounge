@@ -1,12 +1,12 @@
 ## Darkelf Retro Lounge 
 
-Is a cycle and behavioral accuracy PlayStation 2 emulation research and documentation project focused on AetherSX2 and NetherSX2 on Android.
+This is a PlayStation 2 emulation research and documentation project focused on cycle-level considerations and behavioral accuracy, with specific emphasis on AetherSX2 and NetherSX2 on Android.
 
-The project documents how AetherSX2 and NetherSX2 behaves on real hardware through sustained play testing and behavior-based validation — not short benchmarks, unsafe “FPS boost” settings, or unverified claims. Findings emphasize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
+The project documents how AetherSX2 and NetherSX2 behave on real Android hardware through sustained play testing and behavior-based validation—not short benchmarks, unsafe “FPS boost” configurations, or unverified performance claims. Findings prioritize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
 
-Accuracy in this project refers to correct emulator behavior — timing, game logic, audio sync, and input response — as observed on real devices. It does not imply guaranteed full-speed, behavioral stability PS2 performance on constrained hardware.
+In this project, accuracy refers to correct observed emulator behavior: timing consistency, game logic, audio synchronization, and input response as experienced during extended gameplay on real devices. It does not claim or imply full cycle-accurate PS2 hardware emulation, nor does it guarantee full-speed or universally stable performance on constrained hardware.
 
-The project is informed by decades of hands-on testing experience, including professional beta testing and firmware evaluation for retro gaming platforms. This background supports a strict testing methodology and a deliberate rejection of unsafe or misleading emulator practices.
+The project is informed by decades of hands-on testing experience, including professional beta testing and firmware evaluation for retro gaming platforms. This background underpins a strict testing methodology and a deliberate rejection of unsafe, misleading, or performance-only emulator practices.
 
 FPS ≠ accuracy. Behavior defines correctness.
 
