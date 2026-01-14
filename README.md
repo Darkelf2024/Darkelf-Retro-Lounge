@@ -4,7 +4,7 @@ Is a cycle and behavioral accuracy PlayStation 2 emulation research and document
 
 The project documents how AetherSX2 and NetherSX2 behaves on real hardware through sustained play testing and behavior-based validation — not short benchmarks, unsafe “FPS boost” settings, or unverified claims. Findings emphasize correctness, long-session stability, and explainable configuration choices grounded in emulator internals.
 
-Accuracy in this project refers to correct emulator behavior — timing, game logic, audio sync, and input response — as observed on real devices. It does not imply guaranteed full-speed, cycle-accurate PS2 performance on constrained hardware.
+Accuracy in this project refers to correct emulator behavior — timing, game logic, audio sync, and input response — as observed on real devices. It does not imply guaranteed full-speed, cycle-accurate vs Behavioral accuracy PS2 performance on constrained hardware.
 
 The project is informed by decades of hands-on testing experience, including professional beta testing and firmware evaluation for retro gaming platforms. This background supports a strict testing methodology and a deliberate rejection of unsafe or misleading emulator practices.
 
