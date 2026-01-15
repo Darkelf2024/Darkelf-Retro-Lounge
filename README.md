@@ -21,7 +21,7 @@ This repository will hold:
 
 **Current Status:**  
 🔧 Testing in progress on AetherSX2/NetherSX2
-🧠 Results and documentation evolving - work in progress & corrections being made!
+🧠 Results and documentation evolving a work in progress & corrections being made!
 📌 No executable code yet  
 
 **Notes:**  
