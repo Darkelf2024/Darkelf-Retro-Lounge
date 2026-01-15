@@ -20,8 +20,8 @@ This repository will hold:
 - Documentation explaining emulator behavior and testing metrics  
 
 **Current Status:**  
-🔧 Testing in progress on AetherSX2  
-🧠 Results and documentation pending  
+🔧 Testing in progress on AetherSX2/NetherSX2
+🧠 Results and documentation evolving - work in progress & corrections being made!
 📌 No executable code yet  
 
 **Notes:**  
