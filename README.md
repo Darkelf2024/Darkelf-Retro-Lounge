@@ -20,9 +20,10 @@ This repository will hold:
 - Documentation explaining emulator behavior and testing metrics  
 
 **Current Status:**  
-🔧 Testing in progress on AetherSX2/NetherSX2
-🧠 Results and documentation evolving a work in progress & corrections being made!
-📌 No executable code yet  
+- Testing in progress on AetherSX2/NetherSX2
+- Results and list documentation evolving - it's a work in progress. 
+- corrections being made to the AetherSX2 & NetherSX2 List - Lists will be refined as testing continues.
+- No executable code yet a - Still in progress.
 
 **Notes:**  
 - No copyrighted game files are shared  
