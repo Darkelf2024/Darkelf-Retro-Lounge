@@ -21,8 +21,8 @@ This repository will hold:
 
 **Current Status:**  
 - Testing in progress on AetherSX2/NetherSX2
-- Results and list documentation evolving - it's a work in progress. 
-- corrections being made to the AetherSX2 & NetherSX2 List - Lists will be refined as testing continues.
+- Results and list documentation evolving - It's a work in progress. 
+- Corrections are being made to the AetherSX2 & NetherSX2 List - Lists will be refined as testing continues.
 - No executable code yet a - Still in progress.
 
 **Notes:**  
