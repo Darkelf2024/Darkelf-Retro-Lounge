@@ -137,12 +137,15 @@ The interpretation of overlay color indicators aligns with established emulator 
 - **Bridges, P. G., et al. (2012).** *Virtual-machine-based emulation of future generation high-performance computing systems.*  
   Demonstrates how emulation often trades strict timing accuracy for practicality, even when output appears correct.  
   https://doi.org/10.1177/1094342012436619
+  (Available via SAGE Journals and academic databases)
 
 - **Staelens, N., et al. (2012).** *Assessing the importance of audio/video synchronization for video sequences.*  
   Establishes perceptual and technical thresholds for A/V sync independent of frame rate.  
   https://doi.org/10.1007/s00530-012-0262-4
 
 ---
+
+“Some references may require institutional or publisher access and may not be publicly accessible via direct links.”
 
 ## 📌 Summary
 
@@ -151,6 +154,7 @@ The interpretation of overlay color indicators aligns with established emulator 
 - White is the most common real-world condition
 - Red indicates stress, not automatic failure
 - Only **extended, behavior-based testing** reveals true stability
+- Please See Correction Policy
 
 **FPS ≠ accuracy  
 Color ≠ correctness  
