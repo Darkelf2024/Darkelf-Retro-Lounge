@@ -51,6 +51,7 @@ This repository documents:
 * [📌 About Darkelf Retro Lounge](#-about-darkelf-retro-lounge)
 * [👤 About the Author](About.md)
 * [🧩 Version Comparison](Version%20Comparison.md)
+* [References](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/REFERENCES.md)
 
 ---
 
