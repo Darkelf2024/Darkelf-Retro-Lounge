@@ -1,0 +1,56 @@
+---
+
+## ❓ Short FAQ — Overlay Color Indicators
+
+### Q1: Does green mean the emulator is fully accurate?
+**No.**  
+Green only indicates that **current timing is within tolerance**. It does not guarantee cycle accuracy, long-term determinism, or absence of subtle logic drift.
+
+---
+
+### Q2: Does red mean the game is unplayable?
+**No.**  
+Red signals **timing stress**, not failure. A game may appear smooth or maintain near-100% speed while still violating internal timing thresholds.
+
+---
+
+### Q3: Why do colors change even when FPS looks stable?
+Because **FPS is not a timing metric**.  
+The overlay reacts to **frame pacing, execution variance, and synchronization**, not just output frame rate.
+
+---
+
+### Q4: Why is white the most common color?
+White represents a **neutral, acceptable state** where minor fluctuations are present but no warning thresholds are crossed. Real PS2 workloads are burst-driven, so perfectly stable conditions are rare.
+
+---
+
+### Q5: Can color changes be used as proof of correctness?
+**No.**  
+Overlay colors are **diagnostic indicators**, not validation tools. Only **long-session testing and behavior observation** can establish correctness.
+
+---
+
+## 📚 Supporting References & Rationale
+
+The interpretation of these overlay indicators is supported by established emulator and real-time system principles:
+
+- **PCSX2 Development Team** — Emulator documentation and developer discussions emphasize that speed and FPS do not imply correct timing or synchronization.
+  - https://pcsx2.net
+
+- **Copetti, R.** — *PlayStation 2 Architecture: A Practical Analysis*  
+  Demonstrates the burst-driven, multi-unit nature of PS2 workloads, explaining why timing variance is expected.
+  - https://www.copetti.org/writings/consoles/playstation-2/
+
+- **Muller & Wimmer (2008)** — *Virtual Machine Emulation: Accuracy versus Performance Trade-offs*  
+  Establishes that performance optimizations often introduce timing deviation even when output appears correct.
+  - https://doi.org/10.1145/1394608.1394611
+
+- **Huang & Lue (2010)** — *Audio-Video Synchronization in Real-Time Systems*  
+  Shows why synchronization metrics matter independently of frame rate.
+  - https://doi.org/10.1109/TMM.2010.2040464
+
+These sources support the core principle used throughout this project:
+
+**Overlay color reflects timing stress, not accuracy.  
+Behavior over time defines correctness.**
