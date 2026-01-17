@@ -12,7 +12,7 @@ This document explains three of the **most misunderstood performance-related opt
 - Instant VU1
 - EE Cycle Skip
 
-These settings are often described as “speed hacks,” but are more accurately understood as **load-balancing and scheduling shortcuts** that trade accuracy for performance. :contentReference[oaicite:0]{index=0}
+These settings are often described as “speed hacks,” but are more accurately understood as **load-balancing and scheduling shortcuts** that trade accuracy for performance. 
 
 ---
 
