@@ -29,3 +29,6 @@
 ## Practical Guidance
 - Stable pacing → Audio Sync (Mix)
 - Unstable pacing → TimeStretch
+
+## Theory vs Real-World
+- Experiences may differ with certain conditions
