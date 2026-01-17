@@ -8,7 +8,7 @@
 
 This document examines how different **Android System-on-Chip (SoC) designs** affect **AetherSX2 performance**.
 
-Rather than focusing on benchmark numbers, this guide explains **architectural differences**, **scheduler behavior**, and **sustained clock characteristics** that determine real-world emulation stability. :contentReference[oaicite:0]{index=0}
+Rather than focusing on benchmark numbers, this guide explains **architectural differences**, **scheduler behavior**, and **sustained clock characteristics** that determine real-world emulation stability. 
 
 ---
 
