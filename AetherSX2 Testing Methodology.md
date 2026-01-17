@@ -8,7 +8,7 @@
 
 This document describes the **testing methodology** used by **Darkelf Retro Lounge** when evaluating PlayStation 2 titles under **AetherSX2**.
 
-The goal is **repeatability, transparency, and accuracy-focused validation**, rather than subjective performance impressions or short benchmark testing. :contentReference[oaicite:0]{index=0}
+The goal is **repeatability, transparency, and accuracy-focused validation**, rather than subjective performance impressions or short benchmark testing. 
 
 ---
 
