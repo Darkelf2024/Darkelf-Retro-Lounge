@@ -9,8 +9,6 @@ This document explains how **CPU and GPU resources** are utilized during **PlayS
 
 It demonstrates why **CPU performance remains the dominant factor** in emulation accuracy and stability, while **GPU performance primarily affects visual fidelity**.
 
-:contentReference[oaicite:0]{index=0}
-
 ---
 
 ## 1. Why PlayStation 2 Emulation Is CPU-Centric
