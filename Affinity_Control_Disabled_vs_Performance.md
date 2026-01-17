@@ -25,5 +25,5 @@
 - Higher chance of sustained throttling
 
 ## Practical Guidance
-- Long play sessions → Disabled
-- Short benchmarking or bursts → Performance
+- Long play sessions → Disabled but this varies by game
+- Short benchmarking or bursts → Performance or you can choose to set at default 
