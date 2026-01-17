@@ -35,7 +35,7 @@ These settings are often described as “speed hacks,” but are more accurately
 ### Recommended Usage
 - Generally safe on modern devices
 - Should be the **first performance-related option enabled**
-• Behavior may vary by SoC and Android scheduler; even low core-count devices can benefit, so both enabled and disabled states should be tested
+- Behavior may vary by SoC and Android scheduler; even low core-count devices can benefit, so both enabled and disabled states should be tested
 
 
 ---
