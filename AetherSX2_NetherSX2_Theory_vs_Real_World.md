@@ -70,7 +70,7 @@ It focuses on *behavioral accuracy*, real gameplay usability, and measured perfo
 - Often negative over time
 
 **Practical Takeaway**
-- Leave affinity control disabled on mobile devices
+- Leave affinity control disabled on mobile devices unless a game requires it - Some games depend on it
 
 ---
 
