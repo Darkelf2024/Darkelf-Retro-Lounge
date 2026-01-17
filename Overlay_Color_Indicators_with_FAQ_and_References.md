@@ -2,7 +2,7 @@
 
 This document explains the **color changes** observed in the emulator performance overlay (AetherSX2 / NetherSX2-style HUD) and how they relate to **timing behavior**, not raw frame rate.
 
-These indicators are intended as **real-time diagnostics**, not absolute measures of accuracy. They are best understood as *signals of internal timing state* rather than judgments of playability or correctness.
+These indicators are intended as **real-time diagnostics**, not absolute measures of accuracy. They should be understood as *signals of internal timing state* rather than judgments of playability or correctness.
 
 ---
 
@@ -25,7 +25,11 @@ These indicators are intended as **real-time diagnostics**, not absolute measure
 - Absence of rare logic or physics drift
 
 Green reflects a **momentary stable state**, not a permanent guarantee of correctness.
-It does not mean "exactly 100% speed." It means the emulator currently has timing headroom and is not missing deadlines. That headroom can allow the reported speed to momentarily exceed 100% (e.g., 120-130%) possibly more.
+
+> **Important clarification:**  
+> Green does *not* mean “exactly 100% speed.”  
+> It means the emulator currently has **timing headroom** and is not missing deadlines.  
+> That headroom can allow the reported speed to temporarily exceed 100% (for example, 120–130%) without indicating improved accuracy.
 
 ---
 
@@ -121,22 +125,22 @@ No. They are **diagnostic tools**, not validation metrics. Correctness must be e
 
 ## 📚 Supporting References & Rationale
 
-The interpretation of overlay color indicators aligns with established emulator and real-time system research:
+The interpretation of overlay color indicators aligns with established emulator and real-time system principles:
 
-- **PCSX2 Development Team** — Emulator documentation emphasizes that speed and FPS do not equate to correct timing or synchronization.  
+- **PCSX2 Development Team** — Official documentation and developer guidance emphasize that reported speed and FPS do not equate to correct timing or synchronization.  
   https://pcsx2.net
 
 - **Copetti, R.** — *PlayStation 2 Architecture: A Practical Analysis*  
-  Explains the burst-driven, multi-unit nature of PS2 workloads, providing context for timing variance.  
+  Explains the burst-driven, multi-unit nature of PS2 workloads and why timing variance is intrinsic to the system.  
   https://www.copetti.org/writings/consoles/playstation-2/
 
-- **Muller, J., & Wimmer, C. (2008).** *Virtual Machine Emulation: Accuracy versus Performance Trade-offs*.  
-  Demonstrates how performance optimizations can introduce timing deviations even when output appears correct.  
-  https://doi.org/10.1145/1394608.1394611
+- **Bridges, P. G., et al. (2012).** *Virtual-machine-based emulation of future generation high-performance computing systems.*  
+  Demonstrates how emulation often trades strict timing accuracy for practicality, even when output appears correct.  
+  https://doi.org/10.1177/1094342012436619
 
-- **Huang, C., & Lue, H. (2010).** *Audio-Video Synchronization in Real-Time Systems*.  
-  Shows why synchronization metrics matter independently of frame rate.  
-  https://doi.org/10.1109/TMM.2010.2040464
+- **Staelens, N., et al. (2012).** *Assessing the importance of audio/video synchronization for video sequences.*  
+  Establishes perceptual and technical thresholds for A/V sync independent of frame rate.  
+  https://doi.org/10.1007/s00530-012-0262-4
 
 ---
 
