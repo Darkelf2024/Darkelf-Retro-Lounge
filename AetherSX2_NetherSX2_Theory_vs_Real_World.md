@@ -72,6 +72,8 @@ It focuses on *behavioral accuracy*, real gameplay usability, and measured perfo
 **Practical Takeaway**
 - Leave affinity control disabled on mobile devices unless a game requires it - Some games depend on it
 - Can alter the behavior regarding G/V stability
+- CPU affinity doesn’t just affect raw performance; it can materially change emulation behavior by stabilizing scheduling, which in turn improves G/V consistency, pacing, and perceived playability on mobile hardware.
+- Some PS2 titles benefit from Performance affinity because they’re CPU-bound and sensitive to scheduling jitter, while others run better with default affinity to avoid thermal or stability issues. It’s workload-dependent, not universal.
 
 ---
 
