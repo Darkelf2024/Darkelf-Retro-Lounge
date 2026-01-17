@@ -15,7 +15,7 @@ The **EE Cycle Rate** controls how many **Emotion Engine (EE) CPU cycles** Aethe
 It is one of the **most powerful — and most dangerous — tuning options** in the emulator.
 
 This is **not** a traditional overclock or underclock.  
-It is a **scheduler timing adjustment** that changes how the emulator balances CPU, VU, and GPU workloads. :contentReference[oaicite:0]{index=0}
+It is a **scheduler timing adjustment** that changes how the emulator balances CPU, VU, and GPU workloads. 
 
 ---
 
@@ -160,7 +160,7 @@ Many PlayStation 2 games:
 
 ## Why Underclocking Works Better Than Overclocking
 
-Mobile emulation is usually **GPU- or VU-bound**, not CPU-bound.
+PS2 emulation on mobile devices is often limited by GPU, VU, or synchronization rather than raw CPU throughput.
 
 **Underclocking**
 - Prevents EE from overwhelming slower components
