@@ -154,7 +154,7 @@ The interpretation of overlay color indicators aligns with established emulator 
 - White is the most common real-world condition
 - Red indicates stress, not automatic failure
 - Only **extended, behavior-based testing** reveals true stability
-- Please See Correction Policy
+- Please See [Correction Policy](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/Correction_Policy.md)
 
 **FPS ≠ accuracy  
 Color ≠ correctness  
