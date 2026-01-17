@@ -10,7 +10,6 @@ These indicators are intended as **real-time diagnostics**, not absolute measure
 
 **Green text indicates:**
 - Emulated timing is **within expected tolerance**
-- Game speed is at or very near **100%**
 - Frame pacing is currently stable
 - No immediate synchronization warnings are detected
 
@@ -26,6 +25,7 @@ These indicators are intended as **real-time diagnostics**, not absolute measure
 - Absence of rare logic or physics drift
 
 Green reflects a **momentary stable state**, not a permanent guarantee of correctness.
+It does not mean "exactly 100% speed." It means the emulator currently has timing headroom and is not missing deadlines. That headroom can allow the reported speed to momentarily exceed 100% (e.g., 120-130%) possibly more.
 
 ---
 
