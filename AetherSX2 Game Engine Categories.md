@@ -8,7 +8,7 @@
 
 This document categorizes common **PlayStation 2 game engine designs** and explains how each type stresses different subsystems within **AetherSX2**.
 
-Understanding these stress patterns helps explain why certain games require **specific settings, renderers, or timing adjustments**, rather than assuming emulator-wide issues. :contentReference[oaicite:0]{index=0}
+Understanding these stress patterns helps explain why certain games require **specific settings, renderers, or timing adjustments**, rather than assuming emulator-wide issues.
 
 ---
 
