@@ -9,7 +9,7 @@
 This document addresses one of the most overlooked aspects of mobile emulation:  
 **thermal behavior and sustained performance**.
 
-While many devices perform well in short tests, **long PlayStation 2 sessions expose thermal limits** that directly impact emulation stability. :contentReference[oaicite:0]{index=0}
+While many devices perform well in short tests, **long PlayStation 2 sessions expose thermal limits** that directly impact emulation stability.
 
 ---
 
