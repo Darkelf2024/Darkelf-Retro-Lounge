@@ -14,7 +14,7 @@ Rather than focusing on benchmark numbers, this guide explains **architectural d
 
 ## 1. Why SoC Design Matters in Emulation
 
-PlayStation 2 emulation is highly sensitive to:
+PlayStation 2 emulation on mobile devices is highly sensitive to:
 
 - CPU latency
 - Cache behavior
