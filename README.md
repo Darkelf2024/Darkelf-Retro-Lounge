@@ -251,3 +251,10 @@ If you care about **how emulation actually works**, you’re in the right place.
 **Accuracy is not a checkbox.
 Stability is not a benchmark.
 Behavior is the metric.**
+
+## License
+
+All original documentation and writing in this repository is licensed under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0),
+unless otherwise noted.
+
