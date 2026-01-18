@@ -24,7 +24,7 @@ While some combinations may temporarily raise FPS, they often **silently break g
 | **EE Cycle Rate -3 + Frame Skipping** | Breaks physics, cutscenes, and scripted events |
 | **Global Software Renderer** | Global Software Renderer — Causes severe CPU overload on most Android devices; intended only for specific titles that require exact GS behavior |
 | **Overclock + Speed Hacks** | Accelerates game logic unpredictably |
-| **MTVU + Aggressive EE Undercycle** | Causes thread desynchronization in timing-sensitive titles |
+| **MTVU + Aggressive EE Undercycle** | Causes thread desynchronization in timing-sensitive titles when used without per-game validation.
 
 **Key takeaway:**  
 > Instant gains without trade-off analysis usually indicate correctness loss — unless validated through consistency tests.
