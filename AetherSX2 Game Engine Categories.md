@@ -57,7 +57,7 @@ Sprite-based engines depend on:
 - Strict draw ordering  
 - Precise blending correctness  
 
-They often require the **software renderer** to maintain visual accuracy.
+They often require the software renderer to maintain correct draw ordering and blending accuracy.
 
 ---
 
