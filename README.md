@@ -51,9 +51,10 @@ This repository documents:
 * [📌 About Darkelf Retro Lounge](#-about-darkelf-retro-lounge)
 * [👤 About the Author](About.md)
 * [🧩 Version Comparison](Version%20Comparison.md)
+* [📘 Darkelf Lounge Definitions List](Darkelf%20Lounge%20Definitions%20List.md)
+* [🌍 Notice for Non-Native English Speakers](Notice%20Non-Native%20English%20Speakers.md)
 * [📚 References](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/REFERENCES.md)
 * [🎨 Performance Overlay Color Indicators](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/Overlay_Color_Indicators_with_FAQ_and_References.md)
-
 
 ---
 
