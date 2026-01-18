@@ -7,9 +7,7 @@
 ## Overview
 
 This document explains the **critical differences between Software and Hardware rendering** in **AetherSX2**.
-
-While **hardware rendering** provides higher performance and visual enhancements, **software rendering** exists to deliver **pixel-accurate output** required by certain PlayStation 2 titles. :contentReference[oaicite:0]{index=0}
-
+While **hardware rendering** provides higher performance and visual enhancements, **software rendering** exists to deliver **pixel-accurate output** required by certain PlayStation 2
 ---
 
 ## 1. Hardware Rendering Overview
@@ -36,7 +34,7 @@ The **Software Renderer** emulates the Graphics Synthesizer **entirely on the CP
 
 Characteristics:
 - Prioritizes correctness over performance
-- Produces output closest to real PlayStation 2 hardware
+- Produces output closest to real PlayStation 2 Graphics Synthesizer behavior
 - Ignores resolution scaling and visual enhancements
 
 Software rendering correctly handles GS edge cases that hardware renderers cannot accurately reproduce.
