@@ -21,7 +21,7 @@ Testing emphasizes:
 This repository documents:
 
 * Testing data for **200+ PS2 games** on AetherSX2 / NetherSX2
-  👉 [PS2 Playable Lists](https://github.com/Darkelf2024/PS2-Playable-Lists-for-AetherSX2-NetherSX2/tree/main)
+  👉 [PS2 Game Lists](https://github.com/Darkelf2024/PS2-Playable-Lists-for-AetherSX2-NetherSX2/tree/main)
 * Emulator behavior comparisons across AetherSX2, NetherSX2, and related builds
 * Technical documentation explaining *why* emulator settings exist and *how* they affect correctness
 
