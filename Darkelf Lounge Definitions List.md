@@ -221,3 +221,4 @@ Global aggressive changes are discouraged.
 
 **Darkelf Retro Lounge**  
 Preserving Accuracy • Testing Limits • Respecting Original Hardware
+© Darkelf — Licensed under CC BY 4.0 Darkelf Retro Lounge
