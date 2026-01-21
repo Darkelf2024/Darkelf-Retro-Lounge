@@ -47,6 +47,7 @@ This repository documents:
 * [📱 PS2 Compatibility & Playability Lists](#-ps2-compatibility--playability-lists)
 * [🛠️ Companion Tool — Darkelf ROM Detector](#️-companion-tool--darkelf-rom-detector)
 * [📖 Additional Technical References](#-additional-technical-references)
+* [📝 Darkelf Retro Blog](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/wiki)
 * [🧠 Darkelf Philosophy](#-darkelf-philosophy)
 * [📌 About Darkelf Retro Lounge](#-about-darkelf-retro-lounge)
 * [👤 About the Author](About.md)
