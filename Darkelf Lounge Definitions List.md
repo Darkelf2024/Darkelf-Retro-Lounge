@@ -17,7 +17,7 @@ The degree to which emulator behavior matches original PlayStation 2 hardware be
 Accuracy does **not** imply visual fidelity alone and does **not** guarantee high performance.
 
 ### Performance
-The ability to maintain playable frame pacing and responsiveness.
+The ability to maintain playable frame pacing and responsiveness.  
 Performance is evaluated over sustained gameplay, not short benchmark runs.
 
 ### Stability
@@ -26,8 +26,29 @@ The emulator’s ability to run without crashes, lockups, timing drift, or accum
 A game that runs briefly but degrades over time is **not considered stable**.
 
 ### Determinism
-Consistent and predictable behavior across frames and sessions.
+Consistent and predictable behavior across frames and sessions.  
 Loss of determinism often manifests as broken physics, inconsistent AI behavior, or desynchronized audio/animation.
+
+### Artificial Intelligence (AI)
+The **game’s original logic systems** governing enemies, NPCs, companions, and automated behavior.
+
+In PS2 emulation:
+- AI executes on the **Emotion Engine (EE)** as part of normal game logic
+- AI is **not added, enhanced, or modified** by the emulator
+- AI behavior is highly **timing- and CPU-dependent**
+
+AI issues commonly appear as:
+- delayed or frozen enemy reactions
+- NPCs looping or failing to trigger events
+- incorrect combat or pathing decisions
+
+Broken AI behavior is most commonly caused by **EE timing distortion**, including:
+- EE underclocking
+- EE cycle skipping
+- aggressive timing shortcuts
+- desynchronization between EE and VU units
+
+AI is **not related** to modern machine learning, neural networks, or emulator “intelligence.”
 
 ---
 
@@ -39,7 +60,7 @@ A classification indicating that a game:
 - maintains acceptable performance
 - does not exhibit major logic or progression blockers
 
-Behaviorally playable does **not** imply full accuracy.
+Behaviorally playable does **not** imply full accuracy.  
 Minor timing deviations, physics inaccuracies, or visual inconsistencies may still exist.
 
 ### Cycle-Aware Accuracy
@@ -53,11 +74,39 @@ Cycle-aware accuracy focuses on:
 
 A title that only behaves correctly under ideal timing conditions is **not cycle-aware accurate**.
 
+### Not Hard Locked (Framerate)
+A condition where a game’s internal logic is **not strictly bound to a fixed output frame rate**.
+
+Characteristics:
+- Game logic tolerates limited frame pacing variation
+- Performance drops may cause slowdown without immediately breaking logic
+- Common in turn-based RPGs, strategy titles, and slower-paced engines
+
+Not hard locked does **not** imply:
+- immunity to timing issues
+- safe use of speed hacks
+- correctness under aggressive EE manipulation
+
+Even not-hard-locked games may exhibit AI, physics, or animation errors when timing deviates excessively.
+
+### Unlocked Framerate
+A state where visual output is **not capped to a fixed frame target**, while internal game logic may remain timing-dependent.
+
+Key distinctions:
+- Unlocked framerate ≠ unlocked logic
+- Rendering speed may exceed original output while logic assumes PS2 timing
+- Higher frame output does **not** improve AI, physics, or accuracy
+
+Unlocked framerate behavior varies by engine.  
+Many titles appear smoother while remaining internally timing-sensitive.
+
+Unlocked framerate is **not an accuracy indicator**.
+
 ### Playable vs Accurate
-- Playable: runs acceptably without major visible issues
-- Behaviorally Playable: completes correctly with minor inaccuracies
-- Accurate: matches expected hardware behavior under normal conditions
-- Cycle-Aware Accurate: remains correct under timing stress and long sessions
+- **Playable**: runs acceptably without major visible issues  
+- **Behaviorally Playable**: completes correctly with minor inaccuracies  
+- **Accurate**: matches expected hardware behavior under normal conditions  
+- **Cycle-Aware Accurate**: remains correct under timing stress and long sessions  
 
 Playable does **not** imply accurate.
 
@@ -66,28 +115,38 @@ Playable does **not** imply accurate.
 ## CPU / EE / VU Terminology
 
 ### Emotion Engine (EE)
-The PlayStation 2 CPU responsible for game logic, AI, physics, and scripting.
+The PlayStation 2 CPU responsible for game logic, AI, physics, and scripting.  
 In emulation, EE behavior is governed by timing budgets, not real clock frequency.
 
 ### Vector Units (VU0 / VU1)
-PS2 coprocessors used for geometry, animation, and vector math.
+PS2 coprocessors used for geometry, animation, and vector math.  
 VU1 is frequently a synchronization bottleneck.
 
 ### MTVU (Multithreaded VU1)
-A load-balancing option that executes VU1 on a separate CPU thread.
+A load-balancing option that executes VU1 on a separate CPU thread.  
 MTVU behavior varies by game, SoC, and Android scheduler.
 
 ### Instant VU1
-A timing shortcut that bypasses EE–VU synchronization.
+A timing shortcut that bypasses EE–VU synchronization.  
 Often breaks physics and logic; not accuracy-safe.
 
 ### EE Cycle Rate
-A scheduler timing control that limits EE instructions per frame.
+A scheduler timing control that limits EE instructions per frame.  
 It is a load-balancing tool, not a speed hack.
 
 ### EE Cycle Skip
-Discards EE execution to maintain frame rate.
+Discards EE execution to maintain frame rate.  
 Inherently inaccurate.
+
+### Frame-Dependent Logic
+Game logic that advances based on frame count rather than elapsed time.
+
+Frame-dependent systems are:
+- sensitive to EE timing changes
+- vulnerable to AI and physics errors when frames are skipped or stretched
+- common in PS2-era engines
+
+Games may be **not hard locked** yet still contain frame-dependent subsystems.
 
 ---
 
@@ -97,15 +156,15 @@ Inherently inaccurate.
 The PS2 graphics processor with behavior fundamentally different from modern GPUs.
 
 ### Hardware Renderer
-GPU-based rendering (Vulkan/OpenGL) that approximates GS behavior.
+GPU-based rendering (Vulkan/OpenGL) that approximates GS behavior.  
 Fast but not perfectly accurate.
 
 ### Software Renderer
-CPU-based GS emulation.
+CPU-based GS emulation.  
 Highest accuracy, extremely CPU-intensive, intended only for specific titles.
 
 ### Blending Accuracy
-Controls how closely transparency and blending match PS2 behavior.
+Controls how closely transparency and blending match PS2 behavior.  
 Higher accuracy increases GPU load and does not guarantee performance changes.
 
 ---
@@ -113,19 +172,19 @@ Higher accuracy increases GPU load and does not guarantee performance changes.
 ## Platform & Hardware Terms
 
 ### SoC (System-on-Chip)
-Integrated CPU, GPU, memory controller, and power management.
+Integrated CPU, GPU, memory controller, and power management.  
 Emulation depends on sustained clocks, cache behavior, scheduler decisions, and thermals.
 
 ### Scheduler Behavior
-How Android assigns threads to cores.
+How Android assigns threads to cores.  
 Can override emulator intent and vary widely between devices.
 
 ### Sustained Performance
-Performance after thermal equilibrium is reached.
+Performance after thermal equilibrium is reached.  
 More meaningful than peak benchmarks.
 
 ### Thermal Throttling
-Clock reduction to prevent overheating.
+Clock reduction to prevent overheating.  
 Causes audio crackle, slowdowns, and pacing instability.
 
 ---
@@ -133,11 +192,11 @@ Causes audio crackle, slowdowns, and pacing instability.
 ## Configuration Philosophy
 
 ### Baseline Configuration
-A controlled starting point for testing.
+A controlled starting point for testing.  
 Not an optimized preset.
 
 ### Per-Game Override
-Settings applied only to a specific title.
+Settings applied only to a specific title.  
 Aggressive options should never be global.
 
 ### Speed Hacks
@@ -151,11 +210,11 @@ Options that trade correctness for apparent performance.
 Extended gameplay used to expose thermal, timing, and stability issues.
 
 ### Engine-Specific Behavior
-Different game engines stress different subsystems.
+Different game engines stress different subsystems.  
 Issues are often engine-specific, not emulator-wide.
 
 ### Global Settings
-Settings applied to all games.
+Settings applied to all games.  
 Global aggressive changes are discouraged.
 
 ---
