@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/darkelf-retro-lounge-banner.png" alt="Darkelf Retro Lounge" width="900">
+  <img src="assets/[darkelf-retro-lounge-banner.png](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/Darkelf%20Retro%20Lounge.png)" alt="Darkelf Retro Lounge" width="900">
 </p>
 
 # **Darkelf Retro Lounge**
