@@ -176,13 +176,16 @@ Individual game titles are intentionally excluded from this README and maintaine
 
 ---
 
-## 🛠️ Companion Tool — Darkelf ROM Detector
+## 🛠️ Companion Tool — Darkelf Retro CLI Tool
+
+- [Darkelf Retro CLI Tool](https://github.com/Darkelf2024/Darkelf-Retro-CLI)
 
 **Darkelf ROM Detector** is a companion analysis tool that:
 
 * Analyzes ROM metadata and engine characteristics
-* Suggests *safe* EE Cycle Rate and Cycle Skip ranges
-* Accounts for device class and sustained performance limits
+* Darkelf Retro Ai Research Tool
+* Access Game Information from Terminal
+* Access Retro Game Archives
 
 The tool **supports** testing — it does not replace per-game validation.
 
