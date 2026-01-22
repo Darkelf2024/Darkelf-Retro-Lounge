@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/darkelf-retro-lounge-banner.png" alt="Darkelf Retro Lounge" width="900">
+</p>
+
 # **Darkelf Retro Lounge**
 
 **Darkelf Retro Lounge** is a PlayStation 2 emulation research and documentation project focused on **behavioral accuracy**, **timing consistency**, and **long-session stability** on real Android hardware.
