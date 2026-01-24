@@ -51,7 +51,8 @@ This repository documents:
 * [🎯 Project Goals](#-project-goals)
 * [📚 AetherSX2 Documentation Series](#-aethersx2-documentation-series)
 * [📱 PS2 Compatibility & Playability Lists](#-ps2-compatibility--playability-lists)
-* [🛠️ Companion Tool — Darkelf ROM Detector](#️-companion-tool--darkelf-rom-detector)
+* [🛠️ Companion Tool — Darkelf Retro CLI Tool](#️-companion-tool--darkelf-retro-cli-tool)
+* [🧰 Darkelf Retro CLI Hub](https://github.com/Darkelf2024/Darkelf-Retro-CLI-Hub)
 * [📖 Additional Technical References](#-additional-technical-references)
 * [📝 Darkelf Retro Blog](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/wiki)
 * [🧠 Darkelf Philosophy](#-darkelf-philosophy)
@@ -62,6 +63,7 @@ This repository documents:
 * [🌍 Notice for Non-Native English Speakers](Notice%20Non-Native%20English%20Speakers.md)
 * [📚 References](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/REFERENCES.md)
 * [🎨 Performance Overlay Color Indicators](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/Overlay_Color_Indicators_with_FAQ_and_References.md)
+
 
 ---
 
