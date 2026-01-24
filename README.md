@@ -50,7 +50,7 @@ This repository documents:
 
 * [🎯 Project Goals](#-project-goals)
 * [📚 AetherSX2 Documentation Series](#-aethersx2-documentation-series)
-* [📱 PS2 AetherSX2/NetherSX2 Game Lists](#-ps2-compatibility--playability-lists)
+* [📱 PS2 AetherSX2/NetherSX2 Game Lists](#-ps2-AetherSX2/NetherSX2-Game-lists)
 * [🛠️ Companion Tool — Darkelf Retro CLI Tool](#️-companion-tool--darkelf-retro-cli-tool)
 * [🧰 Darkelf Retro CLI Hub](https://github.com/Darkelf2024/Darkelf-Retro-CLI-Hub)
 * [📖 Additional Technical References](#-additional-technical-references)
@@ -166,7 +166,7 @@ Explains sustained performance limits beyond synthetic benchmarks.
 
 ---
 
-## 📱 PS2 Compatibility & Playability Lists
+## 📱 PS2 AetherSX2/NetherSX2 Game Lists
 
 Compatibility and playability lists are based on:
 
