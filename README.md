@@ -53,6 +53,7 @@ This repository documents:
 * [📱 PS2 AetherSX2/NetherSX2 Game Lists](#-ps2-AetherSX2-NetherSX2-Game-lists)
 * [🛠️ Companion Tool — Darkelf Retro CLI Tool](#️-companion-tool--darkelf-retro-cli-tool)
 * [🧰 Darkelf Retro CLI Hub](https://github.com/Darkelf2024/Darkelf-Retro-CLI-Hub)
+* [💿 PS2 ISO / BIN / CHD Format Guide](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/PS2-ISO-Bin-CHD.md)
 * [📖 Additional Technical References](#-additional-technical-references)
 * [📝 Darkelf Retro Blog](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/wiki)
 * [🧠 Darkelf Philosophy](#-darkelf-philosophy)
@@ -63,7 +64,6 @@ This repository documents:
 * [🌍 Notice for Non-Native English Speakers](Notice%20Non-Native%20English%20Speakers.md)
 * [📚 References](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/REFERENCES.md)
 * [🎨 Performance Overlay Color Indicators](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/Overlay_Color_Indicators_with_FAQ_and_References.md)
-
 
 ---
 
