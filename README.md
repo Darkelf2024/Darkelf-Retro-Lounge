@@ -46,24 +46,24 @@ This repository documents:
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents 📑
 
-* [🎯 Project Goals](#-project-goals)
-* [📚 AetherSX2 Documentation Series](#-aethersx2-documentation-series)
-* [📱 PS2 AetherSX2/NetherSX2 Game Lists](#-ps2-AetherSX2-NetherSX2-Game-lists)
-* [🛠️ Companion Tool — Darkelf Retro CLI Tool](#️-companion-tool--darkelf-retro-cli-tool)
-* [🧰 Darkelf Retro CLI Hub](https://github.com/Darkelf2024/Darkelf-Retro-CLI-Hub)
-* [💿 PS2 ISO / BIN / CHD Format Guide](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/PS2-ISO-Bin-CHD.md)
-* [📖 Additional Technical References](#-additional-technical-references)
-* [📝 Darkelf Retro Blog](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/wiki)
-* [🧠 Darkelf Philosophy](#-darkelf-philosophy)
-* [📌 About Darkelf Retro Lounge](#-about-darkelf-retro-lounge)
-* [👤 About the Author](About.md)
-* [🧩 Version Comparison](Version%20Comparison.md)
-* [📘 Darkelf Lounge Definitions List](Darkelf%20Lounge%20Definitions%20List.md)
-* [🌍 Notice for Non-Native English Speakers](Notice%20Non-Native%20English%20Speakers.md)
-* [📚 References](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/REFERENCES.md)
-* [🎨 Performance Overlay Color Indicators](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/Overlay_Color_Indicators_with_FAQ_and_References.md)
+* 🎯 [Project Goals](#project-goals)
+* 📚 [AetherSX2 Documentation Series](#aethersx2-documentation-series)
+* 📱 [PS2 AetherSX2 / NetherSX2 Game Lists](#ps2-aethersx2--nethersx2-game-lists)
+* 🛠️ [Companion Tool — Darkelf Retro CLI Tool](#companion-tool--darkelf-retro-cli-tool)
+* 🧰 [Darkelf Retro CLI Hub](https://github.com/Darkelf2024/Darkelf-Retro-CLI-Hub)
+* 💿 [PS2 ISO / BIN / CHD Format Guide](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/PS2-ISO-Bin-CHD.md)
+* 📖 [Additional Technical References](#additional-technical-references)
+* 📝 [Darkelf Retro Blog](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/wiki)
+* 🧠 [Darkelf Philosophy](#darkelf-philosophy)
+* 📌 [About Darkelf Retro Lounge](#about-darkelf-retro-lounge)
+* 👤 [About the Author](About.md)
+* 🧩 [Version Comparison](Version%20Comparison.md)
+* 📘 [Darkelf Lounge Definitions List](Darkelf%20Lounge%20Definitions%20List.md)
+* 🌍 [Notice for Non-Native English Speakers](Notice%20Non-Native%20English%20Speakers.md)
+* 📚 [References](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/REFERENCES.md)
+* 🎨 [Performance Overlay Color Indicators](https://github.com/Darkelf2024/Darkelf-Retro-Lounge/blob/main/Overlay_Color_Indicators_with_FAQ_and_References.md)
 
 ---
 
