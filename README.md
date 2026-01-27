@@ -177,21 +177,6 @@ Individual game titles are intentionally excluded from this README and maintaine
 
 ---
 
-## 🛠️ Companion Tool — Darkelf Retro CLI Tool
-
-- [Darkelf Retro CLI Tool](https://github.com/Darkelf2024/Darkelf-Retro-CLI)
-
-**Darkelf ROM Detector** is a companion analysis tool that:
-
-* Analyzes ROM metadata and engine characteristics
-* Darkelf Retro Ai Research Tool
-* Access Game Information from Terminal
-* Access Retro Game Archives
-
-The tool **supports** testing — it does not replace per-game validation.
-
----
-
 ## 📖 Additional Technical References
 
 These documents expand on real-world behavior, configuration tradeoffs, and commonly misunderstood emulator features. They complement — but do not replace — the core documentation series.
